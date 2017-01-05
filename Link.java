@@ -1,9 +1,9 @@
 /**
- * Created by biplabkumardas on 12/29/16.
+ * Created by biplabkumardas on 12/28/16.
  */
 class Link {
     public int data;
-    public Link next;
+    public Link  next;
 
     public Link(int id){
         data = id;
@@ -13,5 +13,7 @@ class Link {
     public void display(){
         System.out.println("{ " + data + " }");
     }
-
 }
+
+
+

@@ -5,6 +5,7 @@ public class LinkedList1 {
     private Link first;
 
     public LinkedList1(){
+
         first = null;
     }
 
