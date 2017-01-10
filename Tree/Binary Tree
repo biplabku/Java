@@ -1,0 +1,7 @@
+Binary tree and their operation
+1. Inserting Nodes
+2. Deleting Nodes
+3. Deleting node satisfying different conditions 
+  3.1. when no child nodes
+  3.1. having one child node
+  3.2. Both childrens
