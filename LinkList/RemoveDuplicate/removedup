@@ -1,3 +1,6 @@
 2 methods for removing the duplicate elements from an unsorted link list
 1. using Hashset - O(N)
 2. other without using any buffer or data structure but in this case time complexity increases to O(n^2).
+
+
+Note -  Programmes have the same name - Updated codes for the topic are assembled inside
