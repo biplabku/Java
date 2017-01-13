@@ -1,0 +1,3 @@
+checking whether the linklist is palindrome or not
+I have used stack. 
+Comparing with each pop the starting element of the linklist and then incrementing
