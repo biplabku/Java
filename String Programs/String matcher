@@ -1,0 +1,2 @@
+Programs related to string comparison and other
+1. Basic string matcher with running computation time of O(N).
