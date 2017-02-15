@@ -1,0 +1,3 @@
+Suppose we allow the pattern P to contain occurrences of a gap character }
+that can match an arbitrary string of characters (even one of zero length). 
+For example, the pattern ab}ba}c occurs in the text cabccbacbacab as
