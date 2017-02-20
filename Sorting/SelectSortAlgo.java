@@ -38,4 +38,4 @@ public class SelectionSort {
         arr[x] = arr[y];
         arr[y] = temp;
     }
-}
+} 
