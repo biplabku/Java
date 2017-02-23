@@ -1,0 +1,7 @@
+Question -  Given a directed graph check whether the a path exists between 2 vertices or 2 nodes.
+
+O(N)-  Implementation.
+
+Basic idea -  Since it is a directed graph so we only need to check that particular row of the first Vertex and the rest of
+the columns of the same row. If there is one for that particular location or column than there is a path for the mentioned 
+nodes.
