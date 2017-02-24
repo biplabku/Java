@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class LongestPalindrome {
 	
-	
+
 	public static void main(String[] args){
 		String st = "abtaavta"; 
 		// finding the longest pallindrome from the given sequence 
