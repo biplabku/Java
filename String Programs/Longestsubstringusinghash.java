@@ -1,4 +1,4 @@
-    public int lengthOfLongestSubstring(String s) {
+    public int lengthOfLongestSubstringusingHash(String s) {
         int n = s.length(), ans = 0;
         String res = "";
         HashMap<Character, Integer> hm = new HashMap<>(); 
