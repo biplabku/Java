@@ -1,0 +1,31 @@
+//  this question we have to find a set of number that is equal to a given number.
+//  twist here is we have to find the largest set of numbers.
+// Below program runs in O(N3) time complexity. Need to improve the code 
+
+ public int sumofarr(int[] arr, int num){
+        int reslen = 0;
+        int sum = 0;
+        int count = 0;
+        for(int i = 0; i < arr.length-1; i++){
+            for(int j = i+1; j <= arr.length; j++) {
+                if(checksum(i,j, arr, num)) {
+                    count = j - i;
+                    if(reslen < count){
+                        reslen = count;
+                    }
+                }
+            }
+        }
+        return reslen;
+    }
+
+    public boolean checksum(int x, int y, int[] arr, int num){
+        int sum = 0;
+        for(int i = x; i < y; i++){
+            sum = sum + arr[i];
+        }
+        if(sum == num){
+            return true;
+        }
+        return false;
+    }
